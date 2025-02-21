@@ -35,6 +35,8 @@ private slots:
 
     void on_enter_2_clicked();
 
+    void on_clear_clicked();
+
 private:
     Ui::MainWindow *ui;
     int tila = 1;
