@@ -248,6 +248,9 @@ void MainWindow::numberClickHandler(int n)
 
 void MainWindow::on_enter_2_clicked()
 {
+    if(tila>3){
+        tila = 3;
+    }
     tila++;
     qDebug() << "Valittu tila on " << tila;
 
